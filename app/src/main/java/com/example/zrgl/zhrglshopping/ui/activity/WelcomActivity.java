@@ -61,7 +61,7 @@ public class WelcomActivity extends Activity {
                 timer.cancel();
                 finish();
             }
-
         }
     }
 }
+

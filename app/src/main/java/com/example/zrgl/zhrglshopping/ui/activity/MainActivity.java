@@ -15,7 +15,6 @@ import com.hjm.bottomtabbar.BottomTabBar;
 
 public class MainActivity extends AppCompatActivity {
 
-
     private BottomTabBar mb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
