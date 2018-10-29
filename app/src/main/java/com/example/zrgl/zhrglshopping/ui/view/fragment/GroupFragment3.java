@@ -1,4 +1,4 @@
-package com.example.zrgl.zhrglshopping.ui.fragment;
+package com.example.zrgl.zhrglshopping.ui.view.fragment;
 
 
 import android.os.Bundle;

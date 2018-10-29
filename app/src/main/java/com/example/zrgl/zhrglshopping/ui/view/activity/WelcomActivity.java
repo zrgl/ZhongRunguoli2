@@ -1,12 +1,12 @@
-package com.example.zrgl.zhrglshopping.ui.activity;
+package com.example.zrgl.zhrglshopping.ui.view.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.view.View;
 import android.widget.TextView;
-
 
 import com.example.zrgl.zhrglshopping.R;
 
@@ -16,7 +16,7 @@ import java.util.TimerTask;
 public class WelcomActivity extends Activity {
 
     private TextView welcome_time;
-    private  int count=3;
+    private  int count=6;
     private Timer timer;
 
      private Handler handler=new Handler(){
@@ -35,12 +35,21 @@ public class WelcomActivity extends Activity {
            }
        };
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcom);
         welcome_time = findViewById(R.id.text_welcome_time);
+
+         welcome_time.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent = new Intent(WelcomActivity.this, MainActivity.class);
+                 startActivity(intent);
+
+             }
+         });
+
 
          //获取textview文本控件
         timer = new Timer();
@@ -64,4 +73,5 @@ public class WelcomActivity extends Activity {
         }
     }
 }
+
 

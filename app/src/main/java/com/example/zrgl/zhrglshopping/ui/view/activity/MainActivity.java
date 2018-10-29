@@ -1,4 +1,4 @@
-package com.example.zrgl.zhrglshopping.ui.activity;
+package com.example.zrgl.zhrglshopping.ui.view.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOnTabChangeListener(new BottomTabBar.OnTabChangeListener() {
                  @Override
                  public void onTabChange(int position, String name) {
-                  }
+                     }
                 });
      }
 }

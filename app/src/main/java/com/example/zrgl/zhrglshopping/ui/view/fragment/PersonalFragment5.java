@@ -1,4 +1,4 @@
-package com.example.zrgl.zhrglshopping.ui.fragment;
+package com.example.zrgl.zhrglshopping.ui.view.fragment;
 
 
 import android.os.Bundle;
@@ -13,13 +13,12 @@ import com.example.zrgl.zhrglshopping.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FenleiFragment2 extends Fragment {
+public class PersonalFragment5 extends Fragment {
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-          View view=inflater.inflate(R.layout.fragment_fenlei_fragment2, container, false);
-
-          return view;
+       View view= inflater.inflate(R.layout.fragment_personal_fragment5, container, false);
+         return view;
     }
-
 }
