@@ -24,7 +24,8 @@ public class HomeFragment1 extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
+            //加了一行注释 
+          
 
 
     }
