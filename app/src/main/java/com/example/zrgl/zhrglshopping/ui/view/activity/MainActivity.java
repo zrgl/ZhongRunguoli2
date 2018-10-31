@@ -6,11 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
 import com.example.zrgl.zhrglshopping.R;
-import com.example.zrgl.zhrglshopping.ui.fragment.FenleiFragment2;
-import com.example.zrgl.zhrglshopping.ui.fragment.GroupFragment3;
-import com.example.zrgl.zhrglshopping.ui.fragment.HomeFragment1;
-import com.example.zrgl.zhrglshopping.ui.fragment.PersonalFragment5;
-import com.example.zrgl.zhrglshopping.ui.fragment.ShoppingcarFragment4;
+
+import com.example.zrgl.zhrglshopping.ui.view.fragment.FenleiFragment2;
+import com.example.zrgl.zhrglshopping.ui.view.fragment.GroupFragment3;
+import com.example.zrgl.zhrglshopping.ui.view.fragment.HomeFragment1;
+import com.example.zrgl.zhrglshopping.ui.view.fragment.PersonalFragment5;
+import com.example.zrgl.zhrglshopping.ui.view.fragment.ShoppingcarFragment4;
 import com.hjm.bottomtabbar.BottomTabBar;
 
 public class MainActivity extends AppCompatActivity {
