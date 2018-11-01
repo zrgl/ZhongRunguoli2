@@ -16,7 +16,7 @@
         </FrameLayout>
 
 
-    <com.hjm.bottomtabbar.BottomTabBar
+     <com.hjm.bottomtabbar.BottomTabBar
         android:layout_below="@+id/homeframlayout"
         android:id="@+id/bottom_tab_bar"
         android:layout_width="match_parent"
